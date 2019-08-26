@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Dialog Internal Event Manager</string>
+    <string name="step_01">Step 01</string>
+    <string name="verify_qr_code">Verify QR Code</string>
+    <string name="next_step">Next Step</string>
+    <string name="verify_location">Verify Location</string>
+    <string name="step_02">Step 02</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/backgroundcolor">
 
     <ImageView
-        android:id="@+id/QRCode"
+        android:id="@+id/location"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/qrcode"
+        android:src="@drawable/location"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:background="@color/background"/>
@@ -19,24 +20,25 @@
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/step_01"
-        android:textColor="@color/colorPrimary"
+        android:text="@string/step_02"
+        android:textColor="@color/background"
         android:textSize="24sp"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/QRCode"
+        android:layout_below="@id/location"
         android:gravity="center"
         />
 
     <Button
-        android:id="@+id/btnVerification"
+        android:id="@+id/btnVerifyLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="60dp"
+        android:text="@string/verify_location"
         android:layout_marginLeft="26dp"
         android:layout_marginRight="26dp"
         android:background="@color/background"
-        android:text="@string/verify_qr_code"
-        android:onClick="scan"/>
+        />
+
 
 </RelativeLayout>
